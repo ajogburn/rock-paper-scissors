@@ -1,4 +1,24 @@
-function playerSelection (x) {
+
+// program to get a random item from an array
+
+function getComputerChoice(arr) {
+
+    // get random index value
+    const randomIndex = Math.floor(Math.random() * arr.length);
+
+    // get random item
+    const item = arr[randomIndex];
+
+    return item;
+}
+
+const array = ['rock', 'paper', 'scissors'];
+
+const result = getComputerChoice(array);
+console.log(result);
+
+
+/*  function playerSelection (x) {
 switch(x){
      case 0:
         text = 'rock';
@@ -16,4 +36,4 @@ switch(x){
 
 }
 
-console.log(playerSelection(2))
+console.log(playerSelection(2)); */
