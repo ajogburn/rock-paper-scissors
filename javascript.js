@@ -1,4 +1,4 @@
-function getComputerChoice (x) {
+function playerSelection (x) {
 switch(x){
      case 0:
         text = 'rock';
@@ -16,4 +16,4 @@ switch(x){
 
 }
 
-console.log(getComputerChoice(2))
+console.log(playerSelection(2))
