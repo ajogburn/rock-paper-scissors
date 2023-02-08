@@ -34,7 +34,13 @@ switch(x){
 
 }
 
-console.log(playerSelection(2), getComputerChoice);
+/* console.log(playerSelection(2), getComputerChoice); */
+
+const playRound = (play, comp) => {
+
+   return play +" " + comp;
+}
+console.log(playRound(playerSelection(2), getComputerChoice))
 
 
 
