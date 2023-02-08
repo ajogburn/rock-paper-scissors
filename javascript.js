@@ -1,7 +1,7 @@
 
 // program to get a random item from an array
 
-function getComputerChoice(arr) {
+function computer(arr) {
 
     // get random index value
     const randomIndex = Math.floor(Math.random() * arr.length);
@@ -14,8 +14,7 @@ function getComputerChoice(arr) {
 
 const array = ['rock', 'paper', 'scissors'];
 
-const result = getComputerChoice(array);
-console.log(result);
+const getComputerChoice = computer(array);
 
 function playerSelection (x) {
 switch(x){
@@ -35,6 +34,7 @@ switch(x){
 
 }
 
-console.log(playerSelection(2));
+console.log(playerSelection(2), getComputerChoice);
+
 
 
