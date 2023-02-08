@@ -17,8 +17,7 @@ const array = ['rock', 'paper', 'scissors'];
 const result = getComputerChoice(array);
 console.log(result);
 
-
-/*  function playerSelection (x) {
+function playerSelection (x) {
 switch(x){
      case 0:
         text = 'rock';
@@ -36,4 +35,6 @@ switch(x){
 
 }
 
-console.log(playerSelection(2)); */
+console.log(playerSelection(2));
+
+
